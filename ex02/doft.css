@@ -1,7 +1,131 @@
-#rcorners1 {
+.page{
+    width: 1420px;
+    margin: 0 auto;
+}
+body{
+    background-color:#505050;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.align{
+    display: flex;   
+}
+.redo{
+    height: 23px;
+    width: 23px;
+    margin-left: 1385px;
+    position: absolute;
+    bottom: 115px;
+}
+.close{
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    margin-left: 1385px;
+    top: 115px;
+}
+.title{
+    position: absolute;
+    top: 10px;
+    height: 110px;
+}
+.mag{
+    margin-left: 1110px;
+    bottom: -20px;
+    position: absolute; 
+}
+.main_rectangle{
+    width: 1420px;
+    height: 150px;
     border-radius: 15px;
     background: #909090;
-    padding: 20px;
-    width: 1000px;
-    height: 250px;
+    justify-content: space-around;
+    position: relative;}
+.edgey{
+    width: 10px;
+}
+.final{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 520px;
+    height: 170px;
+    border-radius: 15px;
+    background: #88FF89; 
+    margin: -80 200 0 0;
+    padding: 10px;
+}
+.small_boxes{
+    width: 141px;
+    height: 431px;
+    border-radius: 15px;
+    background: #909090;
+    margin-left: 25px;
+    margin-right: 25px;
+    position: relative;
+}
+.cluster{
+    width: 1023px;
+    height: 580px;
+    border-radius: 15px;
+    background: #909090;
+    justify-content: space-between;
+    padding: 10px;
+}
+.main_rectangle, .small_boxes, .cluster, .final{
+    box-shadow: 8px 8px 8px black;
+}
+.eye{
+    border: 5px solid red;
+    border-radius: 5px; 
+}
+.arrow, .main, .eye, .utils, .chat{
+    height: 68px;
+    width: 68px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.towel{
+    height: 55px;
+    width: 68px;
+}
+.book{
+    height: 100px;
+    width: 75px;
+}
+.wall{
+    background-image: url(resources/brick.jpg);
+    background-repeat: repeat;
+    height: 70px;
+    width: 120px;
+    margin: 10px 0 0 5px;
+}
+.towel, .book{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.large{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 31px;
+}
+.italics{
+    font-style: italic;
+}
+.shadow{
+    text-shadow: 5px 5px 5px rgb(255, 81, 0);
+}
+form input[type="text"]{
+    width: 350px;
+    border: 2px solid #9d969d;
+    border-bottom-color: #eeeeee;
+    border-right-color: #eeeeee;
+}
+form input[type="submit"]{
+    border: 1px solid gray;
+    border-radius: 2px;
+    height: 22px;
+    font-size: 12px;
+    letter-spacing: 1px; 
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(white), to(#dcdcdc));
 }
